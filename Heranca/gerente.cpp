@@ -12,6 +12,6 @@ Funcionario(nome, ID)
 
 double Gerente::calcularSalarioTotal(){
 
-    return Funcionario::calcularSalarioTotal() + this->bonusAnual;
+    return this->salarioBase + this->bonusAnual;
 
 }

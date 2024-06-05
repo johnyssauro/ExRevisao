@@ -30,10 +30,13 @@ int main(){
     funcionarios.push_back(GE2);
     funcionarios.push_back(ES2);
 
+    int cont = 0;
+
     for(auto funcionario : funcionarios){
 
-        cout << funcionario->calcularSalarioTotal() << std::endl;
+        cout << "Funcionario " << cont << ": " << funcionario->calcularSalarioTotal() << std::endl;
 
+        cont++;
     }
 
     return 0;

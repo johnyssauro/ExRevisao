@@ -11,7 +11,7 @@
                 "_UNICODE"
             ],
             "compilerPath": "C:/MinGW/bin/g++.exe",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-clang-arm64"
         }
     ],
     "version": 4
